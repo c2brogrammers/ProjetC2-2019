@@ -56,7 +56,7 @@ MyDr is a serverless app, basically running on the Google Firebase platform.
 * Project Management: Github Projects (Kanban)
 
 ### RESPONSIBILITIES
-- Backend: Etien Eid
+- Backend: Etienne Eid
 - Admin portal: Elie Khoury and Said Eid
 - Web interface: Elie Khoury and Said Eid
 - Native Android app: Youssef Kassouf
