@@ -16,10 +16,31 @@
 #### 2. Find a Doctor
 
 #### 3. Doctor's Profile
-
+Accessible by all kinds of users (other doctors and patients) at any time.
+it contains:
+* Added and Edited by the doctor:
+    * the doctor's general info
+    * the doctor's professional achievements
+    * the free time on the doctor's schedule
+* Added and Edited by the patients:
+    * the reviews and ratings
+    
 #### 4. Patient's Profile
+Accessible by doctors when given access by the patient.
+it contains:
+* Added and Edited by the patients:
+    * the patient's general info
+    * info concerning the patient's medical profile (such as diseases, allergies, medicaments that he takes, ...)
+* Added and Edited by the doctor but approved by the patient:
+    * Info about the patient's medical condition
+    * prescribed medicaments
+    * reminders for treatments (such as next visits, time to take the medicine, ...)
 
-#### 5. Treatment
+#### 5. Treatment Report
+Accessible by the doctor and the patient only.
+After the appointment or any kind of contact, the doctor can write a report about the patient's case, where he can include reminders, prescriptions, ...
+When the doctor submits the form the patient will receive a notification about the report.
+When the patient accepts/confirm the report all the medicaments, reminders, diseases, allergies, ... will be added to his medical profile. 
 
 #### 6. Appointments  
 A doctor specifies a schedule specific for the app's patients (for example, Mondays from 9 till 11 AM and Fridays from 1 till 4 PM). A patient can select an appointment from any of the time slots specified by the doctor. When a patient requests an appointment, the doctor is notified and should accept or reject the request. In both cases, the patient recieves a notifcation regarding the doctor's decision.
