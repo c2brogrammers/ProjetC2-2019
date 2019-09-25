@@ -43,17 +43,17 @@ A page that shows some general information, important phone numbers, and useful 
 #### 13. Terms and Conditions
 
 ### TECHNICAL
-MyDr is a serverless app basically running on the Google Firebase platform.
+MyDr is a serverless app, basically running on the Google Firebase platform.
 - Database: Firebase Cloud Firestore (NOSQL)
 - User Authenticatio: Firebase Authentication
 - API: Firebase Cloud Functions using Node.js
 - Web Interface: Semantic UI React
 - Android App: Java
 - Push Notifications: Firebase Cloud Messaging
-- File Hosting: Firebase Cloud Hosting
+- File Hosting: Firebase Hosting and Cloud Storage
 
 * Source Control: Github (https://github.com/c2brogrammers/ProjetC2-2019)
-* Project Management: Zoho Projects
+* Project Management: Github Projects (Kanban)
 
 ### RESPONSIBILITIES
 - Backend: Etien Eid
