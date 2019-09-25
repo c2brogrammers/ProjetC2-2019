@@ -11,9 +11,11 @@
 
 
 ### FUNCTIONALITY
-#### 1. User Profile  
+#### 1. User Profile
+Each user will create/edit a profile where they will enter general personal information (name, age, address, phone number etc.), as well as information concerning the chosen profile type, such as a general medical history, allergies,  taken pharmaceuticals  … in a patients’ case, or specialization, working years … if the user is a doctor.
 
 #### 2. Find a Doctor
+A patient can search for a doctor depending on the sickness, living region/area and the appointment time convenience (depending on the doctor schedule). Doctors will appear based on the doctors’ location, schedule availability, rating and reviews. The patient can choose any doctor and request an appointment.
 
 #### 3. Doctor's Profile
 Accessible by all kinds of users (other doctors and patients) at any time.
