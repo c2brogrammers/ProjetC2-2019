@@ -2,13 +2,16 @@
 #### CNAM - Projet C2 2019  
 
 ### OVERVIEW
+MyDr is revolutionising the local healthcare market, enabling patients to search, book and review medical specialists online. We strongly believe in the benefit of patient reviews and how they strengthen the patient-specialist relationship: empowering people to make informed decisions, as well as recognising the exceptional dedication of doctors and health specialists.
 
 
 ### PURPOSE
+Rooted in our experience and understanding of both the personal and professional sides of healthcare, we are driven by a passionate belief that technology can greatly enhance the relationship between patients and health specialists. We strive to nurture and improve the understanding between patients and health specialists – because a better relationship can only make for better healthcare.
 
 
 ### SCOPE
-
+Develop a Web-App and a Native Android-App for the customers with an Admin Portal for the project owners
+having the functionalities listed in the functionality section
 
 ### FUNCTIONALITY
 #### 1. User Profile  
