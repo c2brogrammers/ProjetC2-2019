@@ -26,6 +26,8 @@ it contains:
     * the free time on the doctor's schedule
 * Added and Edited by the patients:
     * the reviews and ratings
+* An interactive dashboard that serves as a doctor’s scorecard to track performance and workload. It helps doctors and end users to view and visualize details of patient load and availability, demographic distribution, and important performance indicators like average wait time and patient survey results.
+
     
 #### 4. Patient's Profile
 Accessible by doctors when given access by the patient.
