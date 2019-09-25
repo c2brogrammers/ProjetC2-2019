@@ -71,7 +71,7 @@ MyDr is a serverless app basically running on the Google Firebase platform.
 - Database: Firebase Cloud Firestore (NOSQL)
 - User Authenticatio: Firebase Authentication
 - API: Firebase Cloud Functions using Node.js
-- Web Interface: Semantic UI React
+- Web Interface: ReactJs
 - Android App: Java
 - Push Notifications: Firebase Cloud Messaging
 - File Hosting: Firebase Cloud Hosting
