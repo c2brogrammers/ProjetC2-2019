@@ -69,7 +69,7 @@ A page that shows some general information, important phone numbers, and useful 
 ### TECHNICAL
 MyDr is a serverless app basically running on the Google Firebase platform.
 - Database: Firebase Cloud Firestore (NOSQL)
-- User Authenticatio: Firebase Authentication
+- User Authentication: Firebase Authentication
 - API: Firebase Cloud Functions using Node.js
 - Web Interface: ReactJs
 - Android App: Java
