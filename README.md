@@ -26,6 +26,8 @@ it contains:
     * the free time on the doctor's schedule
 * Added and Edited by the patients:
     * the reviews and ratings
+* An interactive dashboard that serves as a doctor’s scorecard to track performance and workload. It helps doctors and end users to view and visualize details of patient load and availability, demographic distribution, and important performance indicators like average wait time and patient survey results.
+
     
 #### 4. Patient's Profile
 Accessible by doctors when given access by the patient.
@@ -52,7 +54,8 @@ The doctor specifies the default duration for his appointments and can choose wh
 Any user can post a request for a blood unit by specifying the name of the person in need, the hostpital name, and the blood type. Users who have specified their blood type and enabled the blood request notification setting in their profile page, will recieve a push notification when a blood unit same as their blood type is requested. 
 At anytime, users can access the Blood Donation page and see blood units requested in nearby hospitals.
 
-#### 8. Chat
+#### 8. Chat  
+Live Chat feature allows users to chat with healthcare providers for queries and advice on various health issues. In addition the app allow to upload photos or medical reports to enable the healthcare professionals to better understand any of the health conditions.
 
 #### 9. General Info  
 A page that shows some general information, important phone numbers, and useful tips, for example: Emergency hotlines, Hospital numbers, ...
