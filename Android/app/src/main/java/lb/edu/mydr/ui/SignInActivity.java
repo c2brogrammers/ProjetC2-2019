@@ -22,8 +22,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
+import java.io.IOException;
+
 import lb.edu.mydr.MainActivity;
 import lb.edu.mydr.R;
+import lb.edu.mydr.classes.User;
+
+import static lb.edu.mydr.utils.Network.SaveUser;
 
 public class SignInActivity extends AppCompatActivity {
 
@@ -89,7 +94,13 @@ public class SignInActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            FirebaseUser user = mAuth.getCurrentUser();
+                            try {
+                                FirebaseUser user = mAuth.getCurrentUser();
+                                User u = new User(user.getDisplayName(), user.getEmail(), user.getUid());
+                                SaveUser(u);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
                             navigateToMainActivity();
                         } else {
                             Toast.makeText(SignInActivity.this, R.string.toast_signin_failed, Toast.LENGTH_SHORT).show();
