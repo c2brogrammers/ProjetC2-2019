@@ -20,7 +20,7 @@ The main purpose of this project is to help patients find the best and nearest d
 Any User who has downloaded the mobile app or accessed the web app can register and create an account as patient or doctor. Then the user will be able to sign in to the app using their Google or Facebook account.
 
 #### 2. User Profile
-This is the current logged in user prifle page, where they can view and edit their profile info like general personal information (name, age, address, phone number etc.), as well as information concerning the chosen profile type, such as a general medical history, allergies, taken pharmaceuticals, … in a patients’ case, or specialization, working years … if the user is a doctor.
+This is the current logged in user profile page, where they can view and edit their profile info like general personal information (name, age, address, phone number etc.), as well as information concerning the chosen profile type, such as a general medical history, allergies, taken pharmaceuticals, … in a patients’ case, or specialization, working years … if the user is a doctor.
 
 #### 3. Find a Doctor
 A patient can search for a doctor depending on the sickness, living region/area and the appointment time convenience (depending on the doctor schedule). Doctors will appear based on the doctors’ location, schedule availability, rating and reviews. The patient can choose any doctor and request an appointment.
