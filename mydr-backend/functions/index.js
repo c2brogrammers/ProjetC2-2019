@@ -9,7 +9,12 @@ admin.initializeApp();
 // });
 
 exports.saveUser = functions.https.onRequest( async (req, res) => {
-    let user = req.body.user;
+    let user = { 
+        email: req.body.Email,
+        fullName: req.body.FullName,
+        id: req.body.ID,
+        uid: req.body.UID
+    };
     let save = await admin.firestore().collection('users').add({user: user});
     res.json({result: `User with ID: ${save.id} added.`});
 });
